@@ -53,7 +53,7 @@
 -(void)testDivideLarge
 {
     Calculator* calculator = [[Calculator alloc] init];
-    float expected = 11;
+    float expected = 10;
     float result = [calculator divide:20 by:2];
     STAssertEquals(expected, result, @"We expected %f, but it was %f",expected,result);
 }
