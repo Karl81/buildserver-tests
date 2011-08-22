@@ -45,7 +45,7 @@
 -(void)testDivide
 {
     Calculator* calculator = [[Calculator alloc] init];
-    float expected = 2.5;
+    float expected = 2;
     float result = [calculator divide:5 by:2];
     STAssertEquals(expected, result, @"We expected %f, but it was %f",expected,result);
 }
